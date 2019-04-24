@@ -24,9 +24,3 @@ set :keep_releases, 5
 
 # コマンド実行時にsudoをつけるか
 set :use_sudo, false
-
-
-# How To USE
-# bundle exec cap production deploy -> 全部にデプロイ
-# ROLES=linux01 bundle exec cap production deploy -> linux01だけにデプロイ
-# ROLES=linux bundle exec cap production deploy -> linuxだけにデプロイ
