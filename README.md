@@ -19,6 +19,13 @@ ROLES=linux bundle exec cap production deploy -> linuxだけにデプロイ
 + ROLES
    + 設定に書かれているROLEだけを動作させる
 
+# How To Setting
+
++ config/deploy.rb
+   + 全環境の共通設定
++ config/deploy/production.rb
+   + 特定の環境のみの設定。サーバーのIPなどは通常はこちら
+
 # デプロイについて
 
 + Linux環境だけならこれでいける
