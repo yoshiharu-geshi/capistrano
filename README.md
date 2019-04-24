@@ -1,13 +1,15 @@
 # capistrano公式
 
-https://capistranorb.com/
-https://github.com/capistrano/capistrano
++ https://capistranorb.com/
++ https://github.com/capistrano/capistrano
 
 # How To USE
 
+```
 bundle exec cap production deploy -> 全部にデプロイ
 ROLES=linux01 bundle exec cap production deploy -> linux01だけにデプロイ
 ROLES=linux bundle exec cap production deploy -> linuxだけにデプロイ
+```
 
 ## USE の詳細
 
@@ -19,7 +21,7 @@ ROLES=linux bundle exec cap production deploy -> linuxだけにデプロイ
 
 # デプロイについて
 
-Linux環境だけならこれでいける
++ Linux環境だけならこれでいける
 
-Windowsサーバーへのデプロイは未検証
- -> https://github.com/SciMed/capistrano-windows-server
++ Windowsサーバーへのデプロイは未検証
+   + https://github.com/SciMed/capistrano-windows-server
