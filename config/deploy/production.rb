@@ -1,3 +1,4 @@
+not_windows!
 # 本番環境の設定
 
 server "windows01.example.com", user: "deploy", roles: %w{app windows}, my_property: :my_value

@@ -8,6 +8,8 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
+    capistrano-windows-server (0.7.0)
+      capistrano
     concurrent-ruby (1.1.5)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
@@ -24,6 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano (~> 3.11)
+  capistrano-windows-server
 
 BUNDLED WITH
    2.0.1
